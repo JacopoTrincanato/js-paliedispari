@@ -6,7 +6,7 @@
 let userWord
 
 //FASE 2: raccolta Dati
-//assegno un valore alla variabile word
+//assegno un valore alla variabile userword
 userWord = prompt('Inserisci una parola');
 console.log(userWord);
 
