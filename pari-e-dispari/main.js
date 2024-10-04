@@ -9,10 +9,19 @@ console.log(computerNumber);
 
 
 //creo una funzione che verifichi se la somma dei numeri è pari
-function is_even(userNumber, computerNumber) {
+function evenSum(userNumber, computerNumber) {
     if ((userNumber + computerNumber) % 2 == 0) {
         return true;
     }
    
     return false;
+}
+
+//stabilisco il vincitore
+if (evenSum(choice)) {
+    console.log('Hai vinto');
+    
+}else {
+    console.log('Ha vinto il computer');
+    
 }
