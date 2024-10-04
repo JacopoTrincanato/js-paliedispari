@@ -4,17 +4,27 @@ console.log('ciao');
 
 //FASE 1
 //creo una variabile che chieda all'utente di inserire una parola
-let word
+let originalWord
 
 //FASE 2
 //assegno un valore alla variabile word
-word = prompt('Inserisci una parola');
+originalWord = prompt('Inserisci una parola');
+console.log(originalWord);
+
 
 //FASE 3
 //creo una funzione per capire se la parola è palindroma
-function palindromicWord() {
-    let oppositeWord = word.reverse();
-    return oppositeWord;
+function palindromicWord(word) {
+    if (word == originalWord) {
+        return true;
+    }
+
+    return false;
+    
+    
+
 }
 
-console.log(palindromicWord);
+console.log(palindromicWord());
+
+//palindromicWord()
