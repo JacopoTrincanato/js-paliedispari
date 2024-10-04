@@ -8,9 +8,9 @@ let computerNumber = Math.floor(Math.random() * 5) + 1;
 console.log(computerNumber);
 
 
-//creo una funzione che verifichi se il numero è pari
-function is_even(num) {
-    if (num % 2 == 0) {
+//creo una funzione che verifichi se la somma dei numeri è pari
+function is_even(userNumber, computerNumber) {
+    if ((userNumber + computerNumber) % 2 == 0) {
         return true;
     }
    
